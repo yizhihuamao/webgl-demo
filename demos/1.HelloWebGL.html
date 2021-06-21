@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>清空并渲染canvas画布</title>
+</head>
+
+<body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+        使用Chrome等支持canvas的浏览器
+    </canvas>
+
+    <!-- 焦点暂时不要放在这里，为了抹平浏览器差异以及抽象出辅助方法 -->
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <!-- 着重关注这个js -->
+    <script src="1.HelloWebGL.js"></script>
+</body>
+
+</html>
